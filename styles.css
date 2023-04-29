@@ -1,42 +1,41 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.navbar{
-    width: 100%;
-    display: flex;
+.navbar {
+  width: 100%;
+  display: flex;
 }
 
-.logo-div{
-    display: flex;
-    position: absolute;
-    left: 10%;
-    
+.logo-div {
+  display: flex;
+  position: absolute;
+  left: 10%;
 }
 
-.logo-div .logo{
-    margin: auto;
-    padding: 10px;
+.logo-div .logo {
+  margin: auto;
+  padding: 10px;
 }
 
-.logo-div .company-name{
-    margin: auto;
-    padding: 10px;
+.logo-div .company-name {
+  margin: auto;
+  padding: 10px;
 }
 
-.logo-div .testing{
-    margin: auto;
-    padding: 10px;
+.logo-div .testing {
+  margin: auto;
+  padding: 10px;
 }
-.navbar-items{
-    display: flex;
-    position: absolute;
-    right: 10%;
-    width: 50%;
-    justify-content: end;
+.navbar-items {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  width: 50%;
+  justify-content: end;
 }
 
-.navbar-items .item{
-    margin: auto;
-    padding: 10px;
+.navbar-items .item {
+  margin: auto;
+  padding: 10px;
 }
