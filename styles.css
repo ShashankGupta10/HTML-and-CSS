@@ -82,6 +82,7 @@ a {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .nav-links {
@@ -98,20 +99,19 @@ a {
   transition: 0.2s ease-out;
 }
 
-
-ul li .sign-in{
+ul li .sign-in {
   font-weight: 700;
   padding: 10px 25px;
   border: #577592 1px solid;
   border-radius: 6%;
 }
 
-ul li .sign-in:hover{
-border: var(--accent-color) 1px solid;
-transition: 0.2s ease-out;
+ul li .sign-in:hover {
+  border: var(--accent-color) 1px solid;
+  transition: 0.2s ease-out;
 }
 
-ul li .sign-up{
+ul li .sign-up {
   font-weight: 700;
   padding: 10px 25px;
   color: white;
@@ -119,8 +119,60 @@ ul li .sign-up{
   border-radius: 6%;
 }
 
-ul li .sign-up:hover{
-background-color: #1d69a3;
-color: white;
-transition: 0.2s ease-out;
+ul li .sign-up:hover {
+  background-color: #1d69a3;
+  color: white;
+  transition: 0.2s ease-out;
+}
+
+.header {
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2294ed;
+  color: white;
+  font-weight: 700;
+  height: 45px;
+  width: 150px;
+  border-radius: 6%;
+}
+
+.text a:hover {
+  background-color: #1d69a3;
+  transition: 0.2s ease-out;
+}
+
+.image img {
+  width: 586px;
+  height: 429px;
+}
+
+.worlds-best-companies-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.companies-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies-section img{
+  width: 100px;
+  height: 45px;
+  object-fit: unset;
 }
