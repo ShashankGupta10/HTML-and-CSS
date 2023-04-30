@@ -164,6 +164,7 @@ ul li .sign-up:hover {
   display: flex;
   justify-content: center;
   padding-top: 75px;
+  padding-bottom: 30px;
 }
 
 .companies-section {
@@ -172,7 +173,62 @@ ul li .sign-up:hover {
 }
 
 .companies-section img{
-  width: 100px;
   height: 45px;
-  object-fit: unset;
+  object-fit: contain;
+}
+
+.featured-section{
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiss-knife-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-section .featured1{
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-section .featured2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-section div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.featured-section img{
+  width: 40px;
+  height: 40px;
+}
+
+.featured-section a img {
+  width: 15px;
+  height: 15px;
+}
+
+.featured-section a{
+  border: 1px solid grey;
+  color: black;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 6%;
+
+}
+
+.featured-section a:hover{
+  border: #2294ed 1px solid;
+  color: #2294ed;
+  transition: 0.2s ease-out;
 }
