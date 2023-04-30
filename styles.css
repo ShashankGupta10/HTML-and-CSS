@@ -97,3 +97,30 @@ a {
   color: var(--accent-color);
   transition: 0.2s ease-out;
 }
+
+
+ul li .sign-in{
+  font-weight: 700;
+  padding: 10px 25px;
+  border: #577592 1px solid;
+  border-radius: 6%;
+}
+
+ul li .sign-in:hover{
+border: var(--accent-color) 1px solid;
+transition: 0.2s ease-out;
+}
+
+ul li .sign-up{
+  font-weight: 700;
+  padding: 10px 25px;
+  color: white;
+  background-color: #2294ed;
+  border-radius: 6%;
+}
+
+ul li .sign-up:hover{
+background-color: #1d69a3;
+color: white;
+transition: 0.2s ease-out;
+}
