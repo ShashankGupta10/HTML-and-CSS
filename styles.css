@@ -244,7 +244,7 @@ ul li .sign-up:hover {
 
 .photo-text-div {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -260,5 +260,104 @@ ul li .sign-up:hover {
 }
 
 .picture-text-2 .text-2 {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
+}
+
+.upper-div {
+  font-weight: 700;
+}
+
+.picture-text-3 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ladka-image {
+  width: 550px;
+  height: 520px;
+}
+
+.phillips {
+  width: 100px;
+  object-fit: contain;
+}
+
+.picture-text-3 .text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.van-de-ven {
+  width: 50px;
+  height: 50px;
+}
+
+.photo-text-div-3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rick-van {
+  font-weight: 700;
+}
+
+.picture-text-4 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ladka-image-2 {
+  height: 550px;
+  width: 500px;
+}
+
+.economist-group-img{
+  width: 116px;
+}
+
+.ron-dario-img {
+  width: 50px;
+  height: 50px;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo-text-div-4 {
+  display: flex;
+  gap: 20px;
+}
+.ron{
+  font-weight: 700;
+}
+
+.z {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.see-more-examples {
+  position: absolute;
+  left: 44%;
+  border: 1px solid #b9cde4;
+  color: black;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 6%;
+}
+
+.see-more-examples:hover {
+  border: #2294ed 1px solid;
+  color: #2294ed;
+  transition: 0.2s ease-out;
 }
