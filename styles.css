@@ -172,12 +172,12 @@ ul li .sign-up:hover {
   justify-content: space-between;
 }
 
-.companies-section img{
+.companies-section img {
   height: 45px;
   object-fit: contain;
 }
 
-.featured-section{
+.featured-section {
   margin-top: 250px;
   display: flex;
   flex-direction: column;
@@ -189,13 +189,13 @@ ul li .sign-up:hover {
   align-items: center;
 }
 
-.featured-section .featured1{
+.featured-section .featured1 {
   margin: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-.featured-section .featured2{
+.featured-section .featured2 {
   display: flex;
   justify-content: space-around;
 }
@@ -205,10 +205,9 @@ ul li .sign-up:hover {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-
 }
 
-.featured-section img{
+.featured-section img {
   width: 40px;
   height: 40px;
 }
@@ -218,16 +217,15 @@ ul li .sign-up:hover {
   height: 15px;
 }
 
-.featured-section a{
+.featured-section a {
   border: 1px solid #b9cde4;
   color: black;
   font-weight: 700;
   padding: 10px 30px;
   border-radius: 6%;
-
 }
 
-.featured-section a:hover{
+.featured-section a:hover {
   border: #2294ed 1px solid;
   color: #2294ed;
   transition: 0.2s ease-out;
@@ -237,13 +235,11 @@ ul li .sign-up:hover {
   margin-top: 200px;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .picture-text-2 .image2 img {
   width: 575px;
   height: 510px;
-
 }
 
 .photo-text-div {
@@ -261,7 +257,6 @@ ul li .sign-up:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .picture-text-2 .text-2 {
