@@ -479,3 +479,68 @@ ul li .sign-up:hover {
   background-color: #1d69a3;
   transition: 0.2s ease-out;
 }
+
+.subfooter {
+  margin-top: 175px;
+  padding: 75px 75px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ebf2fa;
+}
+
+.company-logo-img {
+  width: 200px;
+}
+
+.hover-a-tags :hover {
+  color: #2294ed;
+  transition: 0.2s ease-out;
+}
+
+.subfooter div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.subfooter div a {
+  color: black;
+}
+
+.subfooter div a:hover {
+  color: #2294ed;
+  transition: 0.2s ease-out;
+}
+
+.footer {
+  background-color: #b9cde4;
+  padding: 20px 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links div a {
+  color: black;
+}
+.footer-links div a:hover {
+  color: #2294ed;
+  transition: 0.2s ease-out;
+}
+
+.social-media-links {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-links img {
+  width: 17px;
+  height: 17px;
+}
