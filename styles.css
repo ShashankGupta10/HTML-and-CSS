@@ -374,7 +374,7 @@ ul li .sign-up:hover {
 }
 
 .four-images div img:hover {
-  box-shadow: 0 0 15px rgba(33,33,33,.2);
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
   transition: 0.3s ease-out;
 }
 
@@ -410,7 +410,7 @@ ul li .sign-up:hover {
   font-weight: 800;
 }
 
-.blue-box{
+.blue-box {
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -424,7 +424,7 @@ ul li .sign-up:hover {
   padding-right: 100px;
 }
 
-.heading{
+.heading {
   padding-top: 50px;
   padding-left: 185px;
   display: flex;
@@ -444,7 +444,7 @@ ul li .sign-up:hover {
   padding: 10px 30px;
   border-radius: 6%;
   color: white;
-  background-color: #2294ed;;
+  background-color: #2294ed;
 }
 
 .blue-box-a:hover {
@@ -452,7 +452,7 @@ ul li .sign-up:hover {
   transition: 0.2s ease-out;
 }
 
-.noob{
+.noob {
   padding-top: 50px;
   display: flex;
   justify-content: center;
