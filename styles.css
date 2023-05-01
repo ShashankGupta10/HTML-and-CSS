@@ -439,7 +439,6 @@ ul li .sign-up:hover {
 
 .blue-box-a {
   width: 160px;
-
   color: black;
   font-weight: 700;
   padding: 10px 30px;
@@ -463,4 +462,20 @@ ul li .sign-up:hover {
   padding-top: 30px;
   display: flex;
   justify-content: center;
+}
+.noob3 {
+  color: white !important;
+  margin-top: 30px;
+  position: absolute;
+  left: 45%;
+  width: 160px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 6%;
+  background-color: #2294ed;
+}
+
+.noob3:hover {
+  background-color: #1d69a3;
+  transition: 0.2s ease-out;
 }
